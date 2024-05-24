@@ -47,7 +47,7 @@ body {
 
 .res-card {
   width: 20%;
-  height: 300px;
+  height: 340px;
   border-radius: 5px;
   padding: 10px 20px;
   box-shadow: 0px 0px 0px #0000000f, 0 0 5px #0000001c;
@@ -59,4 +59,19 @@ body {
   height: 140px;
   object-fit: cover;
   width: 100%;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 400px;
+  background-color: gray;
+}
+
+.login {
+  background-color: rgb(3, 62, 76);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
