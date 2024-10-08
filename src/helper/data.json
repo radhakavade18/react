@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 2,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 3,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 4,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 5,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 6,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 7,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 8,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 9,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 10,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 11,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 12,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 13,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 14,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 15,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 16,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 17,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 18,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 19,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  },
+  {
+    "id": 20,
+    "name": "KFC",
+    "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    "costForTwo": "₹400 for two",
+    "rating": "4.7",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/5d0c595a-dfb2-472b-8ca0-f4701adaa38d_752535.JPG"
+  }
+]

@@ -58,8 +58,20 @@ Two types of Exports and Imports
 
 # Optional chaining
 
-- while getting data from API and rendering on screen its good practice to use Optional Chaining
+- while getting data from API and rendering on screen its good practice to use Optional Chaining - use ?
 
 # Shimmer UI
 
 - while API is sending data insted of showing loader, we can show shimmer UI
+
+# Routing
+
+- to create routing configurations we need to import react-router-dom package from npm
+- we need to import createBrowserRouter component from react-router-dom to set up the configurations for routers
+- to render it, we need to provide this configuration to another component called RouterProvider
+- this RouterProvider component actually provides a routing configuration to our app
+
+# Routing types
+
+- Server side routing => we make a API call then whole page renders from the server side
+- Client side routing => no network calls, only UI side routers (SPA)
