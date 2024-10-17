@@ -36,7 +36,8 @@ const Body = () => {
                         res.info.name.toLowerCase().includes(searchText.toLowerCase());
                     })
                     setFilteredRestaurant(filteredRest);
-                }}>Search
+                }}>
+                    Search
                 </button>
             </div>
             <div className="top-rated-res">
