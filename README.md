@@ -75,3 +75,12 @@ Two types of Exports and Imports
 
 - Server side routing => we make a API call then whole page renders from the server side
 - Client side routing => no network calls, only UI side routers (SPA)
+
+# Redux toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- build our store
+- Connect our store to the app
+- Slice (cartSlice)
+- dispatch action - reducer
+- Selector - subscribe to store

@@ -1,13 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
+import RestaurantCategory from "./RestaurantCategory";
+import UserContext from "../utils/UserContext";
 
 const RestaurantMenu = () => {
     const { restId } = useParams();
-
+    const [showIndex, setShowIndex] = useState(null);
     // custom hook to handle resposibility to fetch data from api
     const resInfo = useRestaurantMenu(restId);
+    const { loggedInUser } = useContext(UserContext);
 
     if (resInfo === null) return <Shimmer />;
 
@@ -15,22 +18,28 @@ const RestaurantMenu = () => {
     const { name, costForTwoMessage, cuisines, avgRating } = restaurantInfo;
 
     const { itemCards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-    console.log(itemCards)
+
+    const categoryFilter = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter((category) => category?.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
+
+    console.log(categoryFilter)
 
     return (
-        <div className="menu">
-            <h1>{name}</h1>
-            <h3>{costForTwoMessage}</h3>
-            <h4>{cuisines.join(", ")}</h4>
-            <h5>Rating {avgRating}</h5>
-            <h3>Menu</h3>
-            <ul>
-                {itemCards?.length > 0 ? (
-                    itemCards.map((item) => {
-                        return (<li key={item?.card?.info?.id}>{item?.card?.info?.name} - Rs: {item?.card?.info?.price / 100}</li>);
-                    })
-                ) : (<li>No menu items available!</li>)}
-            </ul>
+        <div className="flex justify-center mt-8">
+            <div className="w-[850px]">
+                <h1 className="font-bold text-3xl mb-4">{name}</h1>
+                <h4>{cuisines.join(", ")}</h4>
+                <span className="fonnt-bold text-xl">Rating {avgRating} / {costForTwoMessage}</span>
+                <span className="fonnt-bold text-xl">User: {loggedInUser}</span>
+                <h3 className="mb-3 text-2xl font-bold">Menu</h3>
+                {categoryFilter.map((category, index) => (
+                    <RestaurantCategory
+                        key={category?.card?.card?.title}
+                        category={category?.card?.card}
+                        showItems={index === showIndex ? true : false}
+                        setShowIndex={() => setShowIndex(index)}
+                    />
+                ))}
+            </div>
         </div >
     )
 }
